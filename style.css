@@ -384,8 +384,7 @@ img {
 /* FOOTER */
 .footer{
    background-color:var(--dark);
-   opacity:100%;
-   padding:1.5rem;
+   padding:1rem;
 }
 .footer .footer__wrapper{
   display:flex;
@@ -396,7 +395,7 @@ img {
   display:flex;
   flex-direction:row;
   justify-content:center;
-  gap:5rem;
+  gap:3rem;
 }
 
 .footer .footer__social i{
@@ -409,8 +408,8 @@ img {
   .footer .footer__wrapper{
     display:flex;
     flex-direction:column;
-    gap:2rem;
-    padding-top:3rem;
+    gap:3rem;
+    padding:2rem 0;
   }
   .footer .footer__wrapper img{
     display:flex;
