@@ -544,7 +544,7 @@ flex-direction:row;
   list-style-type:disc;
 }
 .packages li::marker{
-  font-size:4rem;
+  font-size:3rem;
 }
 
 @media screen and (max-width:500px){
@@ -563,7 +563,7 @@ flex-direction:row;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
-  gap:3rem;
+  gap:5rem;
   align-items:center;
 }
 .packages .packages__text h2{
@@ -579,12 +579,9 @@ flex-direction:row;
   font-size:2rem;
 }
 .packages li{
-  font-size: 2rem;
-  height: 8rem;
+  font-size:1.5rem;
+  height: 4rem;
   list-style-type:disc;
-}
-.packages li::marker{
-  font-size:4rem;
 }
 }
 /* REPEATABLE PATTERNS */
